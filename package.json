@@ -1,0 +1,28 @@
+{
+  "name": "internship-portal",
+  "version": "1.0.0",
+  "description": "A simple Internship Portal using the MERN stack",
+  "author": "Hari Prasad Joshi",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^7.1.0",
+    "joi": "^17.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "license": "ISC"
+}
